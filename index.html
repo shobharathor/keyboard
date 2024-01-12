@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Keybaord Key</title>
+</head>
+<body>
+    <div id="result">Press Any Key To Get Started</div>
+    <div id="output"></div>
+    <div id="output1"></div>
+
+    <script>
+        window.addEventListener("keydown" ,(e) => {
+         
+    document.getElementById("result").innerHTML=`The key pressed is `;
+    document.getElementById("output").innerHTML=`<span>Key Code: ${e.keyCode}</span>`;
+    document.getElementById("output1").innerHTML =`<span>${e.key}</span>`;
+});
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(rgb(37, 190, 190) 50%, rgb(34, 30, 30) 50%);
+}
+#result{
+    background-color: rgb(45, 235, 216);
+    width:80vw;
+    max-width: 600px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    top:30%;
+    left:50%;
+    padding:80px 40px;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 20px 10px rgba(232, 229, 229, 0.5);
+    font-weight: bolder;
+    font-size: larger;
+}
+#output{
+    background-color: beige;
+    width:50vw;
+    max-width: 600px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    top:10%;
+    left:50%;
+    padding:80px 40px;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 20px 10px rgba(232, 229, 229, 0.5);
+    font-weight: bolder;
+    font-size: larger;
+
+}
+#output1{
+    background-color: rgb(232, 232, 135);
+    width:50vw;
+    max-width: 600px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    bottom:25%;
+    left:50%;
+    padding:80px 40px;
+    color: black;
+    text-align: center;
+    box-shadow: 10px 10px 20px 10px rgba(232, 229, 229, 0.5);
+    font-weight: bolder;
+    font-size: larger;
+
+}
+#result span:nth-child(1){
+
+    color:blue;
+    font-size: 3rem;
+    display: block;
+
+}
+#result span:nth-child(2){
+
+   font-size :1.5rem;
+   font-style: normal;
+}
